@@ -58,7 +58,15 @@ body {
     center top/cover;
 }
 
+.slide:nth-child(4) {
+  background: url("4.png") no-repeat
+    center top/cover;
+}
 
+.slide:nth-child(5) {
+  background: url("5.png") no-repeat
+    center top/cover;
+}
 .buttons button#prev {
   position: absolute;
   top: 50%;
@@ -124,7 +132,7 @@ body {
     const nextButton = document.getElementById("next");
     const prevButton = document.getElementById("prev");
     const auto = true;
-    const intervalTime = 5000;
+    const intervalTime = 4000;
     let slideInterval;
 
     const nextSlide = () => {
